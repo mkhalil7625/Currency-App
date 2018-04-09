@@ -32,6 +32,6 @@ router.get('/convert', function (req, res, next) {
 });
 // GET About page
 router.get('/about', function (req, res, next) {
-    res.render('about',{name:"My Site"});
+    res.render("about",{name:"Mo Khalil", description:"currency converter app"});
 });
 module.exports = router;
